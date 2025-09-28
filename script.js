@@ -225,13 +225,17 @@ function startTypewriter() {
     
     const fullMessage = `Hi Saaccvvy,
 
-Happy Birthday!
+Selamat ulang tahun yang ke-20 untuk wanita tercantik dan yang selalu aku kagumi setiap saat💖💞
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+"Hari ini bukan hanya tentang bertambahnya usiamu, tapi juga tentang merayakan anugerah terindah yang pernah hadir dalam hidupku: dirimu.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+Jujur, sejak mengenalmu, hidupku terasa punya warna dan tujuan yang berbeda. Senyummu adalah hadiah yang paling ingin kulihat setiap hari, dan caramu menjalani hidup benar-benar menginspirasiku.
 
-Selamat bertambah usia yang ke-20 cantik <3 (03-10-2005)`;
+Aku ingin kamu tahu, betapa istimewa dirimu di mataku. Aku benar-benar menyukaimu, dan aku berharap di usiamu yang baru ini, kamu akan mendapatkan semua kebahagiaan dan keajaiban yang kamu pantas dapatkan.
+
+Semoga aku bisa menjadi bagian dari kebahagiaanmu, bukan hanya hari ini, tapi untuk waktu yang lama. Aku di sini, selalu mendoakan yang terbaik untukmu."
+
+03 Oktober 2005❤️‍🔥`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +270,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Saaccvvy,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>Selamat bertambah usia yang ke-20 cantik <3 (03-10-2005)`;
+            const fullMessage = `Hi Saaccvvy,<br><br>Selamat ulang tahun yang ke-20 untuk wanita tercantik dan yang selalu aku kagumi setiap saat💖💞<br><br>"Hari ini bukan hanya tentang bertambahnya usiamu, tapi juga tentang merayakan anugerah terindah yang pernah hadir dalam hidupku: dirimu.<br><br>Jujur, sejak mengenalmu, hidupku terasa punya warna dan tujuan yang berbeda. Senyummu adalah hadiah yang paling ingin kulihat setiap hari, dan caramu menjalani hidup benar-benar menginspirasiku.<br><br>Aku ingin kamu tahu, betapa istimewa dirimu di mataku. Aku benar-benar menyukaimu, dan aku berharap di usiamu yang baru ini, kamu akan mendapatkan semua kebahagiaan dan keajaiban yang kamu pantas dapatkan.<br><br>Semoga aku bisa menjadi bagian dari kebahagiaanmu, bukan hanya hari ini, tapi untuk waktu yang lama. Aku di sini, selalu mendoakan yang terbaik untukmu."<br><br>03 Oktober 2005❤️‍🔥`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -378,7 +382,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 PRETTY AND CUTE 💕</div>
+            <div class="photo-strip-footer">💗 PRETTY AND CUTE 💗</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
